@@ -12,11 +12,11 @@
 		C509770F286B8B82001FAE18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C509770E286B8B82001FAE18 /* ViewController.swift */; };
 		C5097712286B8B82001FAE18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5097710286B8B82001FAE18 /* Main.storyboard */; };
 		C5097715286B8B82001FAE18 /* clothy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5097713286B8B82001FAE18 /* clothy.xcdatamodeld */; };
-		C5097717286B8B85001FAE18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5097716286B8B85001FAE18 /* Assets.xcassets */; };
 		C509771A286B8B85001FAE18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5097718286B8B85001FAE18 /* LaunchScreen.storyboard */; };
 		C5097725286B8B86001FAE18 /* clothyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5097724286B8B86001FAE18 /* clothyTests.swift */; };
 		C509772F286B8B86001FAE18 /* clothyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C509772E286B8B86001FAE18 /* clothyUITests.swift */; };
 		C5097731286B8B86001FAE18 /* clothyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5097730286B8B86001FAE18 /* clothyUITestsLaunchTests.swift */; };
+		C509773E286BFADC001FAE18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C509773D286BFADC001FAE18 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 		C509770E286B8B82001FAE18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5097711286B8B82001FAE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5097714286B8B82001FAE18 /* clothy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = clothy.xcdatamodel; sourceTree = "<group>"; };
-		C5097716286B8B85001FAE18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5097719286B8B85001FAE18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C509771B286B8B85001FAE18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5097720286B8B86001FAE18 /* clothyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clothyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +50,7 @@
 		C509772A286B8B86001FAE18 /* clothyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clothyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C509772E286B8B86001FAE18 /* clothyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothyUITests.swift; sourceTree = "<group>"; };
 		C5097730286B8B86001FAE18 /* clothyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C509773D286BFADC001FAE18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,7 @@
 		C50976FE286B8B82001FAE18 = {
 			isa = PBXGroup;
 			children = (
+				C509773D286BFADC001FAE18 /* Images.xcassets */,
 				C5097709286B8B82001FAE18 /* clothy */,
 				C5097723286B8B86001FAE18 /* clothyTests */,
 				C509772D286B8B86001FAE18 /* clothyUITests */,
@@ -105,7 +106,6 @@
 				C509770C286B8B82001FAE18 /* SceneDelegate.swift */,
 				C509770E286B8B82001FAE18 /* ViewController.swift */,
 				C5097710286B8B82001FAE18 /* Main.storyboard */,
-				C5097716286B8B85001FAE18 /* Assets.xcassets */,
 				C5097718286B8B85001FAE18 /* LaunchScreen.storyboard */,
 				C509771B286B8B85001FAE18 /* Info.plist */,
 				C5097713286B8B82001FAE18 /* clothy.xcdatamodeld */,
@@ -234,8 +234,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C509773E286BFADC001FAE18 /* Images.xcassets in Resources */,
 				C509771A286B8B85001FAE18 /* LaunchScreen.storyboard in Resources */,
-				C5097717286B8B85001FAE18 /* Assets.xcassets in Resources */,
 				C5097712286B8B82001FAE18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
