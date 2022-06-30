@@ -17,6 +17,7 @@
 		C509772F286B8B86001FAE18 /* clothyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C509772E286B8B86001FAE18 /* clothyUITests.swift */; };
 		C5097731286B8B86001FAE18 /* clothyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5097730286B8B86001FAE18 /* clothyUITestsLaunchTests.swift */; };
 		C509773E286BFADC001FAE18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C509773D286BFADC001FAE18 /* Images.xcassets */; };
+		C5C0535A286E33C700BD1FA4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C05359286E33C700BD1FA4 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C509772E286B8B86001FAE18 /* clothyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothyUITests.swift; sourceTree = "<group>"; };
 		C5097730286B8B86001FAE18 /* clothyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C509773D286BFADC001FAE18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5C05359286E33C700BD1FA4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../../Clothy/clothy/QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				C509770C286B8B82001FAE18 /* SceneDelegate.swift */,
 				C509770E286B8B82001FAE18 /* ViewController.swift */,
 				C5097710286B8B82001FAE18 /* Main.storyboard */,
+				C5C05359286E33C700BD1FA4 /* QuizViewController.swift */,
 				C509773D286BFADC001FAE18 /* Images.xcassets */,
 				C5097718286B8B85001FAE18 /* LaunchScreen.storyboard */,
 				C509771B286B8B85001FAE18 /* Info.plist */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C509770F286B8B82001FAE18 /* ViewController.swift in Sources */,
+				C5C0535A286E33C700BD1FA4 /* QuizViewController.swift in Sources */,
 				C509770B286B8B82001FAE18 /* AppDelegate.swift in Sources */,
 				C5097715286B8B82001FAE18 /* clothy.xcdatamodeld in Sources */,
 				C509770D286B8B82001FAE18 /* SceneDelegate.swift in Sources */,

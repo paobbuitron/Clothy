@@ -52,7 +52,7 @@
                                     <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="PUu-iv-GgR" kind="show" id="tqd-tk-klv"/>
+                                    <segue destination="PUu-iv-GgR" kind="show" id="8um-bk-qjb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHa-96-Kb1">
@@ -1770,10 +1770,10 @@ Cg
             </objects>
             <point key="canvasLocation" x="440.57971014492756" y="833.70535714285711"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz View Controller-->
         <scene sceneID="ybr-DY-5M8">
             <objects>
-                <viewController id="PUu-iv-GgR" customClass="ViewController" customModule="clothy" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PUu-iv-GgR" customClass="QuizViewController" customModule="clothy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ti1-7W-n7I">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1799,19 +1799,113 @@ Cg
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOb-l9-eby">
+                                <rect key="frame" x="186" y="263" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="test what you learned with this quiz!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLI-TM-sYC">
+                                <rect key="frame" x="51" y="159" width="313" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="which of these is a way to shop more sustainably?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqh-Ee-duF">
+                                <rect key="frame" x="25" y="234" width="364" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ag1-j0-Mm4">
+                                <rect key="frame" x="110" y="269" width="195" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="shop at secondhand stores">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="q1:" destination="PUu-iv-GgR" eventType="touchUpInside" id="6Cn-Xu-YsO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nS3-M2-kcd">
+                                <rect key="frame" x="110" y="404" width="195" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="buy trendy clothes">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="q4:" destination="PUu-iv-GgR" eventType="touchUpInside" id="T9V-Px-p6F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Yv-aa-z8f">
+                                <rect key="frame" x="110" y="360" width="195" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="buy low quality clothes">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="q3:" destination="PUu-iv-GgR" eventType="touchUpInside" id="92K-5i-kx7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EKS-jC-p7z">
+                                <rect key="frame" x="110" y="315" width="195" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="buy lots of clothes">
+                                    <fontDescription key="titleFontDescription" name="Optima-Regular" family="Optima" pointSize="15"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="q2:" destination="PUu-iv-GgR" eventType="touchUpInside" id="ddC-4j-v2b"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="text will go here" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t7R-cU-pPr">
+                                <rect key="frame" x="84" y="549" width="244" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="F0J-Am-7QZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="bbr-bq-fBt"/>
+                    <connections>
+                        <outlet property="textAppear" destination="t7R-cU-pPr" id="saS-wZ-H3L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xh5-eQ-cYd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1164" y="834"/>
+            <point key="canvasLocation" x="1185.5072463768117" y="833.70535714285711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oKq-pO-GMt">
+            <objects>
+                <viewController id="tps-TH-PyI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gPz-iV-af7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ePu-rc-FYn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WNE-4A-FjF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1164" y="1517"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="koN-Of-OM5"/>
+        <segue reference="lgC-Pn-rdr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2 copy" width="200" height="200"/>
