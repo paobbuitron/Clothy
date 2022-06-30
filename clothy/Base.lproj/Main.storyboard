@@ -1765,7 +1765,7 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Fashion" translatesAutoresizingMaskIntoConstraints="NO" id="LlN-Hz-lYb">
-                                <rect key="frame" x="98" y="573" width="238" height="189"/>
+                                <rect key="frame" x="98" y="561" width="241" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
